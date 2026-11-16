@@ -1,0 +1,16 @@
+patient_id,age,gender,insurance_provider,service,diagnosis_category,physician_order,clinical_notes,previous_imaging,authorization_status,prompt_type,model
+P1001,45,Female,HealthFirst,MRI Brain,Neurology,True,True,False,Approved,Standard,gpt-4.1-mini
+P1002,62,Male,UnitedCare,CT Abdomen,Gastroenterology,True,False,True,Pending,Standard,gpt-4.1-mini
+P1003,28,Female,MediPlus,Physical Therapy,Orthopedics,True,True,True,Approved,Standard,gpt-4.1-mini
+P1004,70,Male,CareWell,Echocardiogram,Cardiology,False,True,False,Denied,Standard,gpt-4.1-mini
+P1005,53,Female,PrimeHealth,Colonoscopy,Gastroenterology,True,True,False,Approved,Standard,gpt-4.1-mini
+P1002347,29,Female,NovaHealth,MRI Brain Scan,Neurological,Order #4582: MRI to evaluate persistent headaches and dizziness,Patient reports increasing frequency of migraines over last 3 months. No prior imaging available.,,Pending,Diversity,gpt-4.1-mini
+P1008745,67,Male,CareSure Advantage,Cardiac Stress Test,Cardiology,Order #7721: Stress test ordered due to chest pain and shortness of breath on exertion,History of mild hypertension. Previous imaging: echocardiogram performed 9 months ago.,echocardiogram_091023.pdf,Approved,Diversity,gpt-4.1-mini
+P1010021,45,Non-binary,MediFuture Plus,Physical Therapy,Orthopedic,Order #9083: PT sessions prescribed for rehabilitating rotator cuff injury,Patient completed initial imaging (X-ray) which showed no fractures. MRI pending.,xray_shoulder_030124.jpg,Denied,Diversity,gpt-4.1-mini
+P1005620,8,Female,BrightCare Family Plan,Audiology Evaluation,Pediatrics,Order #1110: Hearing test requested due to delayed speech development,No prior imaging or evaluations available.,,Approved,Diversity,gpt-4.1-mini
+P1007899,53,Male,HealthGuard Select,CT Abdomen with Contrast,Gastroenterology,Order #6234: CT scan to investigate unexplained abdominal pain and weight loss,Previous ultrasound available but inconclusive.,ultrasound_abdomen_112323.dcm,Pending,Diversity,gpt-4.1-mini
+PID1001,45,Female,HealthPlus,MRI Brain,Neurology,True,True,False,Pending,Edge Case,gpt-4.1-mini
+PID1002,30,Male,MediCareX,Physical Therapy,Orthopedics,False,True,True,Denied,Edge Case,gpt-4.1-mini
+PID1003,67,Male,WellnessGuard,Cardiac Stress Test,Cardiology,True,False,True,Denied,Edge Case,gpt-4.1-mini
+PID1004,52,Female,SecureHealth,CT Abdomen,Gastroenterology,True,True,True,Approved,Edge Case,gpt-4.1-mini
+PID1005,23,Non-binary,PrimeCare,Psychiatric Evaluation,Mental Health,True,False,False,Pending,Edge Case,gpt-4.1-mini
